@@ -1,0 +1,178 @@
+/*CSS for all*/
+*
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.wrapper
+{
+width: 80%;
+padding: 1%;
+margin: 0 auto;
+}
+
+.text-center
+{
+text-align: center;
+}
+
+.tbl-wide
+{
+width: 90%;
+}
+
+.tbl-wider
+{
+width: 100%;
+}
+
+table tr th
+{
+border-bottom: solid 1px blue;
+padding: 1%;
+text-align: left;
+}
+
+table tr td
+{
+padding: 1%;
+}
+
+.btn-primary
+{
+background-color: darkred;
+color: white;
+cursor: pointer;
+padding: 1%;
+text-decoration: none;
+font-weight: bold;
+border: none;
+}
+
+.btn-primary:hover
+{
+background-color: rgb(224, 93, 76);
+}
+
+.btn-secondary
+{
+background-color: blue;
+color: white;
+cursor: pointer;
+padding: 1%;
+text-decoration: none;
+font-weight: bold;
+border: none;
+}
+
+.btn-secondary:hover
+{
+background-color: lightblue;
+}
+
+.btn-danger
+{
+background-color: red;
+color: white;
+cursor: pointer;
+padding: 1%;
+text-decoration: none;
+font-weight: bold;
+border: none;
+}
+
+.btn-danger:hover
+{
+background-color: lightcoral;
+}
+
+
+/*CSS for head section*/
+.menu
+{
+border-bottom: 1px solid lightblue;
+}
+
+.menu ul
+{
+list-style-type: none;
+}
+
+.menu ul li
+{
+display: inline;
+padding: 1%;
+font-weight: bold;
+}
+
+.menu ul li a
+{
+text-decoration: none;
+}
+
+.menu ul li a:hover
+{
+color: black;
+}
+
+/*CSS for main content*/
+.main
+{
+background-color: #ececec;
+padding: 3% 0;
+}
+
+.col-4
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col
+{
+background-color: rgb(100,200,100);
+margin: 0 1%;
+padding: 2%;
+}
+
+.credentials
+{
+font-size: 1.5rem;
+}
+
+.credentials label
+{
+padding: 2%;
+}
+
+.credentials input
+{
+color: blue;
+font-size: 1.5rem;
+width: 40%;
+text-align: center;
+margin: 1% 0;
+}
+
+.credentials select
+{
+color: blue;
+font-size: 1.5rem;
+width: 40%;
+text-align: center;
+margin: 1% 0;
+}
+
+.credentials textarea
+{
+padding: 2%;
+color: blue;
+}
+
+/*CSS for footer*/
+.footer
+{
+background-color: rgb(150,200,150);
+}

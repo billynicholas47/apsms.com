@@ -1,0 +1,316 @@
+/*CSS for all*/
+*
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.container
+{
+width: 80%;
+margin: 0 auto;
+padding: 1%;
+}
+
+.text-right
+{
+text-align: right;
+}
+
+.text-center
+{
+text-align: center;
+}
+
+.text-blue
+{
+color: lime;
+}
+
+.text-white
+{
+color: white;
+}
+
+.text-big
+{
+font-size: 1.3rem;
+}
+
+.clear-fix
+{
+clear: both;
+float: none;
+}
+
+a
+{
+color: darkred;
+text-decoration: none;
+}
+
+a:hover
+{
+color: rgb(3, 44, 7);
+}
+
+.btn
+{
+padding: 1%;
+border: none;
+font-size: 1rem;
+border-radius: 5px;
+}
+
+.btn-primary
+{
+background-color: rgb(150, 45, 32);
+color: white;
+cursor: pointer;
+}
+
+.btn-primary:hover
+{
+color: white;
+background-color: rgb(224, 93, 76);
+}
+
+h2
+{
+color: darkred;
+font-size:2.3rem;
+margin-bottom: 2%;
+}
+
+h3
+{
+font-size: 2rem;
+}
+
+.float-container
+{
+position: relative;
+}
+
+.float-text
+{
+position: absolute;
+bottom: 30%;
+left: 35%;
+}
+
+/*CSS for nav-bar section*/
+.nav-bar
+{
+background-color: rgb(180,200,180);
+}
+
+.upper
+{
+margin: 0 0.5em;
+}
+
+.logo
+{
+width: 25%;
+float: left;
+}
+
+.img-full
+{
+width: 100%;
+}
+
+.img-curved
+{
+border-radius: 15px;
+}
+
+.menu
+{
+line-height: 100px;
+}
+
+.menu ul
+{
+list-style-type: none;
+}
+
+.menu ul li
+{
+display: inline;
+padding: 1%;
+font-weight: bold;
+}
+
+/*CSS for search section*/
+.search
+{
+background-image: url(../resources/images/.img-logo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgb(150,200,150);
+padding: 6% 0;
+}
+
+.search input[type="search"]
+{
+width: 50%;
+padding: 1%;
+font-size: 1rem;
+border: none;
+border-radius: 5px;
+}
+
+/*CSS for categories section*/
+.categories
+{
+padding: 4% 0;
+}
+
+.our_categories
+{
+align-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.featured_boxes
+{
+width: 33%;
+margin: 1%;
+}
+
+/*CSS for products section*/
+.products
+{
+background-color: #ececec;
+padding: 4% 0;
+}
+
+.menu_items
+{
+margin: 1%;
+padding: 2%;
+background-color: white;
+border-radius: 15px;
+}
+
+.wrapper
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: minmax(200px, auto);
+grid-auto-columns: minmax(100px, auto);
+}
+
+.product-img
+{
+width: 45%;
+float: left;
+}
+
+.product-desc
+{
+float: left;
+width: 50%;
+margin-left: 3%;
+}
+
+.price
+{
+color: orange;
+font-size: 1.5rem;
+margin: 2% 0;
+}
+
+.details
+{
+color: rgb(103, 102, 248);
+font-size: 1rem;
+}
+
+/*CSS for links section*/
+.links ul
+{
+list-style-type: none;
+}
+
+.links ul li
+{
+display: inline;
+padding: 1%;
+}
+
+/*CSS for footer section*/
+.footer
+{
+background-color: rgb(150,200,150);
+}
+
+/*CSS for smaller screens*/
+@media only screen and (max-width:768px)
+{
+
+.logo
+{
+width: 90%;
+float: none;
+margin: 1% auto;
+}
+
+.menu
+{
+text-align: center;
+}
+
+.menu ul li
+{
+font-size: large;
+display: inline;
+padding: 1%;
+font-weight: bold;
+}
+
+.search
+{
+padding: 10% 0;
+}
+
+.search input[type="search"]
+{
+width: 90%;
+padding: 2%;
+margin-bottom: 3%;
+}
+
+.btn
+{
+width: 90%;
+padding: 2%;
+}
+
+.categories
+{
+padding: 10% 0;
+}
+
+.our_categories
+{
+display: block;
+align-items: center;
+}
+
+.featured_boxes
+{
+width: 90%;
+margin: 4% auto;
+}
+
+.wrapper
+{
+grid-template-columns: 1fr;
+}
+}
